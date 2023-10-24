@@ -1,9 +1,72 @@
-<mxfile host="app.diagrams.net" modified="2023-10-24T00:35:16.213Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" version="22.0.6" etag="_gT-lZnRUy6sU19bRkdt" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-24T01:28:28.962Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="AIwyIFxprZlN7eG7dFt3" version="22.0.6" type="github">
   <diagram name="Page-1" id="QUibWqAYOWlOGNTD_tMy">
-    <mxGraphModel>
+    <mxGraphModel dx="1163" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FCWWcpuNUacDEIq2Xtwd-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="40" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FCWWcpuNUacDEIq2Xtwd-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="40" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FCWWcpuNUacDEIq2Xtwd-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="40" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FCWWcpuNUacDEIq2Xtwd-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="40" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FCWWcpuNUacDEIq2Xtwd-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="210" y="120" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FCWWcpuNUacDEIq2Xtwd-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="210" y="140" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FCWWcpuNUacDEIq2Xtwd-8" value="Query (A): We query assignments for some locations and verify local consistency." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="170" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FCWWcpuNUacDEIq2Xtwd-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="390" y="120" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FCWWcpuNUacDEIq2Xtwd-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="390" y="140" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FCWWcpuNUacDEIq2Xtwd-15" value="We now look at the overlapping location which was queried for twice i.e., in both (A) and (B)." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="515" y="170" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FCWWcpuNUacDEIq2Xtwd-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="530" y="120" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FCWWcpuNUacDEIq2Xtwd-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="530" y="140" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FCWWcpuNUacDEIq2Xtwd-18" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="550" y="120" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FCWWcpuNUacDEIq2Xtwd-19" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="550" y="140" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FCWWcpuNUacDEIq2Xtwd-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F19C99;" vertex="1" parent="1">
+          <mxGeometry x="550" y="140" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FCWWcpuNUacDEIq2Xtwd-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FCWWcpuNUacDEIq2Xtwd-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="180" as="sourcePoint" />
+            <mxPoint x="560" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCWWcpuNUacDEIq2Xtwd-22" value="Queried twice, the marginal distributions as per both queries (A) and (B) are statistically close." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="630" y="55" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FCWWcpuNUacDEIq2Xtwd-23" value="Query (B): We query assignments for some other locations and verify local consistency." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="175" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FCWWcpuNUacDEIq2Xtwd-24" value="We want to prove correctness of this tableau of computation." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="170" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FCWWcpuNUacDEIq2Xtwd-25" value="&lt;b&gt;Non Signalling Property&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="627.5" y="145" width="115" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
