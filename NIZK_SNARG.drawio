@@ -1,9 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2023-10-30T20:26:49.312Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" version="22.0.8" etag="rhGRa1jylIzVW92gNcxB" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-30T20:49:25.344Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="_Rvmh0cxuTq55fCJ_a5j" version="22.0.8" type="github">
   <diagram name="Page-1" id="2duezAJIGHPuwxCmr4vA">
-    <mxGraphModel>
+    <mxGraphModel dx="1172" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ZMi55uao8cfq0HLcDmGo-12" value="SNARGs for NP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="110" y="90" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMi55uao8cfq0HLcDmGo-13" value="NIZK in Hidden Bits Model (FLS Paradigm)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="10" y="220" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMi55uao8cfq0HLcDmGo-14" value="NIZK in CRS Model" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="110" y="336.13" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMi55uao8cfq0HLcDmGo-16" value="&lt;font color=&quot;#006600&quot;&gt;Subset Dependent Proofs&lt;/font&gt; Hidden Bits Generator &lt;br&gt;(SDP-HBG)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="210" y="220" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMi55uao8cfq0HLcDmGo-18" value="One Way Functions" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="310" y="10" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMi55uao8cfq0HLcDmGo-19" value="Leakage Resilient Weak PRF" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="310" y="90" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMi55uao8cfq0HLcDmGo-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZMi55uao8cfq0HLcDmGo-18" target="ZMi55uao8cfq0HLcDmGo-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="290" as="sourcePoint" />
+            <mxPoint x="280" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZMi55uao8cfq0HLcDmGo-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZMi55uao8cfq0HLcDmGo-23" target="ZMi55uao8cfq0HLcDmGo-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMi55uao8cfq0HLcDmGo-23" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="174.38" y="193.13" width="31.25" height="203" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMi55uao8cfq0HLcDmGo-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZMi55uao8cfq0HLcDmGo-25" target="ZMi55uao8cfq0HLcDmGo-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMi55uao8cfq0HLcDmGo-25" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="258.75" y="80" width="62.5" height="203" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMi55uao8cfq0HLcDmGo-29" value="(3) The authors show that SDP-HBG suffices for successful compilation of FLS NIZK into NIZK in CRS Model." style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="300" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMi55uao8cfq0HLcDmGo-30" value="(1) Constructing HBG from SNARGs is hard. So the authors define a new primitive called &lt;font color=&quot;#006600&quot;&gt;SDP-HBG&lt;/font&gt;.&lt;br&gt;&lt;br&gt;(2) They then provide construction of SDP-HBG from SNARGs and OWF." style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="160" width="200" height="90" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
