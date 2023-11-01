@@ -1,61 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2023-11-01T21:07:47.401Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="Ue9Ro2c57Fsx7F33FwM9" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-01T21:51:40.027Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="oyR6tF0V9yFyn2EzkVmd" version="22.0.8" type="github">
   <diagram name="Page-1" id="knsuuLYSr0ch21Z2ep3a">
     <mxGraphModel dx="838" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="DR5VC4Ss77LQuogKUgTp-1" value="Mahadev&#39;s Measurement Protocol" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YPjdYbhZf6CEotD-gnbq-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DR5VC4Ss77LQuogKUgTp-1" target="DR5VC4Ss77LQuogKUgTp-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DR5VC4Ss77LQuogKUgTp-1" value="Mahadev&#39;s Measurement Protocol" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="190" y="10" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DR5VC4Ss77LQuogKUgTp-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DR5VC4Ss77LQuogKUgTp-2" target="DR5VC4Ss77LQuogKUgTp-12">
+        <mxCell id="DR5VC4Ss77LQuogKUgTp-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="DR5VC4Ss77LQuogKUgTp-4" target="DR5VC4Ss77LQuogKUgTp-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DR5VC4Ss77LQuogKUgTp-4" value="State Preserving Argument of Knowledge [LMS21]" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DR5VC4Ss77LQuogKUgTp-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="250" y="230" as="targetPoint" />
+            <mxPoint x="340" y="120" as="targetPoint" />
+            <mxPoint x="340" y="120" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DR5VC4Ss77LQuogKUgTp-2" value="Verifier Succinct Measurement Protocol" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="110" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="DR5VC4Ss77LQuogKUgTp-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="DR5VC4Ss77LQuogKUgTp-1" target="DR5VC4Ss77LQuogKUgTp-2">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="340" y="270" as="sourcePoint" />
-            <mxPoint x="390" y="220" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DR5VC4Ss77LQuogKUgTp-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DR5VC4Ss77LQuogKUgTp-4" target="DR5VC4Ss77LQuogKUgTp-26">
+        <mxCell id="DR5VC4Ss77LQuogKUgTp-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="DR5VC4Ss77LQuogKUgTp-11" target="DR5VC4Ss77LQuogKUgTp-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DR5VC4Ss77LQuogKUgTp-4" value="State Preserving Argument of Knowledge [LMS21]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="250" width="120" height="60" as="geometry" />
+        <mxCell id="DR5VC4Ss77LQuogKUgTp-11" value="Non-Interactive Post Hoc Verification of QMA [FHM18]" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="10" y="10" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DR5VC4Ss77LQuogKUgTp-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="340" y="220" as="targetPoint" />
-            <mxPoint x="340" y="220" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DR5VC4Ss77LQuogKUgTp-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DR5VC4Ss77LQuogKUgTp-11" target="DR5VC4Ss77LQuogKUgTp-12">
+        <mxCell id="DR5VC4Ss77LQuogKUgTp-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="DR5VC4Ss77LQuogKUgTp-12" target="DR5VC4Ss77LQuogKUgTp-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DR5VC4Ss77LQuogKUgTp-11" value="Non-Interactive Post Hoc Verification of QMA [FHM18]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="10" y="110" width="120" height="60" as="geometry" />
+        <mxCell id="DR5VC4Ss77LQuogKUgTp-12" value="Interactive (Verifier Succinct) BARG for QMA" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DR5VC4Ss77LQuogKUgTp-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DR5VC4Ss77LQuogKUgTp-12" target="DR5VC4Ss77LQuogKUgTp-26">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="DR5VC4Ss77LQuogKUgTp-26" value="Interactive BARGs for QMA" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="190" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DR5VC4Ss77LQuogKUgTp-12" value="Interactive (Verifier Succinct) BARG for QMA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="250" width="120" height="60" as="geometry" />
+        <mxCell id="DR5VC4Ss77LQuogKUgTp-31" value="Bring total communication to acceptable levels." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="165" y="210" width="170" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="DR5VC4Ss77LQuogKUgTp-26" value="Interactive BARGs for QMA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="390" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="DR5VC4Ss77LQuogKUgTp-30" value="Reduce size of verifier&#39;s communication" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="250" y="70" width="140" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="DR5VC4Ss77LQuogKUgTp-31" value="Bring total communication to acceptable levels." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="165" y="310" width="170" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="DR5VC4Ss77LQuogKUgTp-32" value="Convert Measurement Protocol to an Argument for QMA." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="75" y="170" width="170" height="50" as="geometry" />
+        <mxCell id="DR5VC4Ss77LQuogKUgTp-32" value="Convert Measurement Protocol to an Argument for QMA." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="75" y="70" width="170" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
