@@ -1,79 +1,79 @@
-<mxfile host="app.diagrams.net" modified="2023-11-02T04:53:06.452Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="JTjZdtUln5GAfEMNQ2ON" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-02T14:40:25.663Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="Q8K0bbiKfiQVub9T1TAp" version="22.0.8" type="github">
   <diagram name="Page-1" id="E8AeCMWw3gYSySnyamw1">
     <mxGraphModel dx="1434" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="eZ-TYJGBVdjmWTHrhvwh-3" value="Prover" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eZ-TYJGBVdjmWTHrhvwh-3" value="Prover" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eZ-TYJGBVdjmWTHrhvwh-4" value="Verifier" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eZ-TYJGBVdjmWTHrhvwh-4" value="Verifier" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="460" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eZ-TYJGBVdjmWTHrhvwh-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="eZ-TYJGBVdjmWTHrhvwh-3">
+        <mxCell id="eZ-TYJGBVdjmWTHrhvwh-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="eZ-TYJGBVdjmWTHrhvwh-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="320" y="1040" as="sourcePoint" />
             <mxPoint x="320" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eZ-TYJGBVdjmWTHrhvwh-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="eZ-TYJGBVdjmWTHrhvwh-4">
+        <mxCell id="eZ-TYJGBVdjmWTHrhvwh-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="eZ-TYJGBVdjmWTHrhvwh-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="520" y="1040" as="sourcePoint" />
             <mxPoint x="519.5" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eZ-TYJGBVdjmWTHrhvwh-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="eZ-TYJGBVdjmWTHrhvwh-7" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="520" y="280" as="sourcePoint" />
             <mxPoint x="320" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eZ-TYJGBVdjmWTHrhvwh-8" value="$$\vec{K}=\{pk_1, \cdots, pk_n\}$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-10;" vertex="1" parent="1">
+        <mxCell id="eZ-TYJGBVdjmWTHrhvwh-8" value="$$\vec{K}=\{pk_1, \cdots, pk_n\}$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-10;" parent="1" vertex="1">
           <mxGeometry x="295" y="270" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eZ-TYJGBVdjmWTHrhvwh-9" value="Generate binary string \(h\) encoding the choice of basis for qubit \(i\) using \(h_i=0\) for standard and \(h_i=1\) for Hadamard.&lt;br&gt;&lt;br&gt;Generate a TCF key pair for each qubit based on the basis string \(h\). &lt;br&gt;$$(pk_1, sk_1), \cdots, (pk_n, sk_n)$$&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="eZ-TYJGBVdjmWTHrhvwh-9" value="Generate binary string \(h\) encoding the choice of basis for qubit \(i\) using \(h_i=0\) for standard and \(h_i=1\) for Hadamard.&lt;br&gt;&lt;br&gt;Generate a TCF key pair for each qubit based on the basis string \(h\). &lt;br&gt;$$(pk_1, sk_1), \cdots, (pk_n, sk_n)$$&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="525" y="180" width="235" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="eZ-TYJGBVdjmWTHrhvwh-10" value="&lt;div style=&quot;text-align: right;&quot;&gt;Prover contains an \(n\) qubit quantum state \(B\) that is to be measured as well as auxiliary qubit registers \(X\) where each \(X_i\) denotes a uniform superposition of \(l\) qubits.&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;text-align: right;&quot;&gt;$$\rho=B_1 \otimes X_1 \otimes B_2 \otimes X_2 \otimes \cdots B_n \otimes X_n $$&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="140" width="215" height="240" as="geometry" />
+        <mxCell id="eZ-TYJGBVdjmWTHrhvwh-10" value="&lt;div style=&quot;text-align: right;&quot;&gt;Prover contains an \(n\) qubit quantum state \(B\) that is to be measured as well as auxiliary qubit registers \(X\) where each \(X_i\) denotes a uniform superposition of \(l\) qubits.&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;text-align: right;&quot;&gt;$$\rho=B_1 \otimes X_1 \otimes B_2 \otimes X_2 \otimes \cdots B_n \otimes X_n $$&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="87.5" y="80" width="215" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="eZ-TYJGBVdjmWTHrhvwh-11" value="&lt;div style=&quot;&quot;&gt;Evaluate \(y_i \leftarrow \mathcal{M}(f_{pk_i}(B_i\otimes X_i)\)) for all \(i \in [n]\).&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="eZ-TYJGBVdjmWTHrhvwh-11" value="&lt;div style=&quot;&quot;&gt;Evaluate \(y_i \leftarrow \mathcal{M}(f_{pk_i}(B_i\otimes X_i)\)) for all \(i \in [n]\).&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="80" y="330" width="237.5" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="eZ-TYJGBVdjmWTHrhvwh-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="eZ-TYJGBVdjmWTHrhvwh-12" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="320" y="400" as="sourcePoint" />
             <mxPoint x="520" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eZ-TYJGBVdjmWTHrhvwh-16" value="$$\vec{y}=\{y_1, \cdots, y_n\}$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=10;" vertex="1" parent="1">
+        <mxCell id="eZ-TYJGBVdjmWTHrhvwh-16" value="$$\vec{y}=\{y_1, \cdots, y_n\}$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=10;" parent="1" vertex="1">
           <mxGeometry x="310" y="390" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eZ-TYJGBVdjmWTHrhvwh-17" value="Sample a random bit &amp;nbsp;\(c\) to determine whether it is a test round or measurement round.&lt;br&gt;$$c \xleftarrow{$} \{0,1\}$$" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="eZ-TYJGBVdjmWTHrhvwh-17" value="Sample a random bit &amp;nbsp;\(c\) to determine whether it is a test round or measurement round.&lt;br&gt;$$c \xleftarrow{$} \{0,1\}$$" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="525" y="470" width="235" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="eZ-TYJGBVdjmWTHrhvwh-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="eZ-TYJGBVdjmWTHrhvwh-18" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="520" y="560" as="sourcePoint" />
             <mxPoint x="320" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eZ-TYJGBVdjmWTHrhvwh-19" value="$$c$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-15;" vertex="1" parent="1">
+        <mxCell id="eZ-TYJGBVdjmWTHrhvwh-19" value="$$c$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-15;" parent="1" vertex="1">
           <mxGeometry x="390" y="550" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eZ-TYJGBVdjmWTHrhvwh-20" value="&lt;div style=&quot;&quot;&gt;if \(c=0\) measure each \(B_i \otimes X_i \) in standard basis, get \(\{(b_i, x_i)\}_{i=1}^n\)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;span style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;if \(c=1\) apply \(H\) to each qubit and measure in standard basis, get \(\{d_i\}_{i=1}^n\)&lt;/div&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="eZ-TYJGBVdjmWTHrhvwh-20" value="&lt;div style=&quot;&quot;&gt;if \(c=0\) measure each \(B_i \otimes X_i \) in standard basis, get \(\{(b_i, x_i)\}_{i=1}^n\)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;span style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;if \(c=1\) apply \(H\) to each qubit and measure in standard basis, get \(\{d_i\}_{i=1}^n\)&lt;/div&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="80" y="550" width="230" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="eZ-TYJGBVdjmWTHrhvwh-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="eZ-TYJGBVdjmWTHrhvwh-21" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="320" y="720" as="sourcePoint" />
             <mxPoint x="520" y="760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eZ-TYJGBVdjmWTHrhvwh-22" value="&amp;nbsp;\(\{(b_i, x_i)\}_{i=1}^n\) &amp;nbsp;or&amp;nbsp;&amp;nbsp;\(\{d_i\}_{i=1}^n\) based on \(c\)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=10;" vertex="1" parent="1">
+        <mxCell id="eZ-TYJGBVdjmWTHrhvwh-22" value="&amp;nbsp;\(\{(b_i, x_i)\}_{i=1}^n\) &amp;nbsp;or&amp;nbsp;&amp;nbsp;\(\{d_i\}_{i=1}^n\) based on \(c\)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=10;" parent="1" vertex="1">
           <mxGeometry x="340" y="670" width="170" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="eZ-TYJGBVdjmWTHrhvwh-23" value="&lt;div style=&quot;text-align: left;&quot;&gt;if \(c=0\) check \(f_{pk_i}(b_i, x_i)=y_i\) for all \(i \in [n]\) else fail.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;if \(c=1\):&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;Let \(R \subseteq [n]\) denote set of indices of qubit that are being measured in Hadamard basis i.e. \(h_i=1\).&lt;/li&gt;&lt;li&gt;For all \(i \in R\), compute claws \((0, x_{i,0})\) and \((1, x_{i,1})\) for \(y_i\) using \(sk_i\) to evaluate measurement result \(u_i=d \cdot (1, x_{i,0} \oplus x_{i,1})\)&lt;/li&gt;&lt;li&gt;Similarly let \(S=[n]\setminus R\) denote set of indices of qubits being measured in standard basis.&lt;/li&gt;&lt;li&gt;For all \(I \in S\), ignore \(d_i\) and set measurement result \(u_i\) as the first bit of the inversion result \(f_{pk_i}^{-1}(y_i)\).&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#ff0000&quot;&gt;Output string \(u\)&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="eZ-TYJGBVdjmWTHrhvwh-23" value="&lt;div style=&quot;text-align: left;&quot;&gt;if \(c=0\) check \(f_{pk_i}(b_i, x_i)=y_i\) for all \(i \in [n]\) else fail.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;if \(c=1\):&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;Let \(R \subseteq [n]\) denote set of indices of qubit that are being measured in Hadamard basis i.e. \(h_i=1\).&lt;/li&gt;&lt;li&gt;For all \(i \in R\), compute claws \((0, x_{i,0})\) and \((1, x_{i,1})\) for \(y_i\) using \(sk_i\) to evaluate measurement result \(u_i=d \cdot (1, x_{i,0} \oplus x_{i,1})\)&lt;/li&gt;&lt;li&gt;Similarly let \(S=[n]\setminus R\) denote set of indices of qubits being measured in standard basis.&lt;/li&gt;&lt;li&gt;For all \(I \in S\), ignore \(d_i\) and set measurement result \(u_i\) as the first bit of the inversion result \(f_{pk_i}^{-1}(y_i)\).&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#ff0000&quot;&gt;Output string \(u\)&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="525" y="800" width="235" height="230" as="geometry" />
         </mxCell>
       </root>
