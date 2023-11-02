@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-01T21:51:40.027Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="oyR6tF0V9yFyn2EzkVmd" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-02T01:17:20.853Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="GjYP5bikWEiFxzuXjxZT" version="22.0.8" type="github">
   <diagram name="Page-1" id="knsuuLYSr0ch21Z2ep3a">
-    <mxGraphModel dx="838" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,7 +14,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DR5VC4Ss77LQuogKUgTp-4" value="State Preserving Argument of Knowledge [LMS21]" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="280" y="150" width="120" height="60" as="geometry" />
+          <mxGeometry x="280" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DR5VC4Ss77LQuogKUgTp-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -32,15 +32,15 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DR5VC4Ss77LQuogKUgTp-12" value="Interactive (Verifier Succinct) BARG for QMA" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="100" y="150" width="120" height="60" as="geometry" />
+          <mxGeometry x="100" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DR5VC4Ss77LQuogKUgTp-26" value="Interactive BARGs for QMA" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="190" y="290" width="120" height="60" as="geometry" />
+          <mxGeometry x="190" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DR5VC4Ss77LQuogKUgTp-31" value="Bring total communication to acceptable levels." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="165" y="210" width="170" height="50" as="geometry" />
+          <mxGeometry x="165" y="230" width="170" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="DR5VC4Ss77LQuogKUgTp-32" value="Convert Measurement Protocol to an Argument for QMA." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="DR5VC4Ss77LQuogKUgTp-32" value="Combine the two to construct an Argument System for QMA" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="75" y="70" width="170" height="50" as="geometry" />
         </mxCell>
       </root>
