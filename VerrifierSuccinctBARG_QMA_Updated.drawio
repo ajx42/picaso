@@ -1,9 +1,81 @@
-<mxfile host="app.diagrams.net" modified="2023-11-02T15:34:11.865Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" version="22.0.8" etag="JoH2OGRKwWa-dXHslJu4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-02T15:34:25.660Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="ZvX38qQVt5VPtSodCPuM" version="22.0.8" type="github">
   <diagram name="Page-1" id="I3Gde1aK4UhDFA_dXX6m">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="dlX6tczQvVn4witCfzSi-1" value="Prover" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dlX6tczQvVn4witCfzSi-2" value="Verifier" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dlX6tczQvVn4witCfzSi-3" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="dlX6tczQvVn4witCfzSi-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="1040" as="sourcePoint" />
+            <mxPoint x="320" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dlX6tczQvVn4witCfzSi-4" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="dlX6tczQvVn4witCfzSi-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="1040" as="sourcePoint" />
+            <mxPoint x="519.5" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dlX6tczQvVn4witCfzSi-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="280" as="sourcePoint" />
+            <mxPoint x="320" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dlX6tczQvVn4witCfzSi-6" value="$$PK$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-10;" vertex="1" parent="1">
+          <mxGeometry x="295" y="270" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dlX6tczQvVn4witCfzSi-7" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Instantiated with a batch of \(k\) instances&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;$$(x_1,\cdots,x_k)$$&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Sample at the basis string \(h\) and define circuit \(C\) such that \(C(i)= h_i\) .&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Generate master keys:&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;$$(PK,SK)\leftarrow \textcolor{blue}{Gen}(1^\lambda, C)$$&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="525" y="110" width="235" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="dlX6tczQvVn4witCfzSi-8" value="&lt;div style=&quot;text-align: right;&quot;&gt;Instantiated with a batch of \(k\) instances&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;$$(x_1,\cdots,x_k)$$&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;and \(k(\lambda)\) copies of the witnesses&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;$$|\phi_j\rangle \in \mathcal{R_L}(x_j)$$&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="102.5" y="100" width="215" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="dlX6tczQvVn4witCfzSi-9" value="&lt;div style=&quot;&quot;&gt;For all \(j \in [k]\), compute the quantum proof:&lt;/div&gt;&lt;div style=&quot;&quot;&gt;$$|\psi_j\rangle \leftarrow \textcolor{red}{P_{FHM}}\biggl(x_j, |\phi_j\rangle^{\otimes k(\lambda)} \biggr)$$&lt;/div&gt;&lt;div style=&quot;&quot;&gt;and then compute \(\vec{y}\) as follows:&lt;/div&gt;&lt;div style=&quot;&quot;&gt;$$(\vec{y_j}, |st_j\rangle) \leftarrow \textcolor{green}{Commit}(PK, |\phi_j\rangle)$$&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="330" width="237.5" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="dlX6tczQvVn4witCfzSi-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="460" as="sourcePoint" />
+            <mxPoint x="520" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dlX6tczQvVn4witCfzSi-11" value="$$\vec{y}=\{\vec{y_1}, \cdots, \vec{y_k}\}$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=10;" vertex="1" parent="1">
+          <mxGeometry x="295" y="450" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dlX6tczQvVn4witCfzSi-12" value="Sample a random bit &amp;nbsp;\(c\) to determine whether it is a test round or measurement round.&lt;br&gt;$$c \xleftarrow{$} \{0,1\}$$" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="525" y="520" width="235" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dlX6tczQvVn4witCfzSi-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="600" as="sourcePoint" />
+            <mxPoint x="320" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dlX6tczQvVn4witCfzSi-14" value="$$c$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-15;" vertex="1" parent="1">
+          <mxGeometry x="390" y="590" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dlX6tczQvVn4witCfzSi-15" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;For all \(j \in [k]\), compute \(\vec{z}\) as follows:&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;$$\vec{z_j} \leftarrow \textcolor{green}{Open}(|st_j\rangle, c)$$&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="87.5" y="590" width="230" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="dlX6tczQvVn4witCfzSi-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="720" as="sourcePoint" />
+            <mxPoint x="520" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dlX6tczQvVn4witCfzSi-17" value="$$\vec{z} = \{\vec{z_1},\cdots, \vec{z_k}\}$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=10;" vertex="1" parent="1">
+          <mxGeometry x="340" y="670" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="dlX6tczQvVn4witCfzSi-18" value="&lt;div style=&quot;text-align: left;&quot;&gt;if \(c=0\) check whether $$\textcolor{blue}{Test}(PK, (\vec{y_j}, \vec{z_j}))=acc$$ for all \(j \in [k]\), fail if any of these tests fails.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;if \(c=1\) compute $$m_j \leftarrow \textcolor{blue}{Out}(SK, (\vec{y_j}, \vec{z_j}))$$ and check $$\textcolor{red}{V_{FHM}}(x_j, m_j)=acc$$ for all \(j \in [k]\), accept only if all verifications succeed.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="525" y="800" width="215" height="230" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
