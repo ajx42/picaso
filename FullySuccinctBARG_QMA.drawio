@@ -1,9 +1,96 @@
-<mxfile host="app.diagrams.net" modified="2023-11-03T00:58:33.701Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" version="22.0.8" etag="MOo76uI607doaU8TrbII" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-04T19:17:27.020Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="EZUawDSIAiCcgqgRSr6q" version="22.0.8" type="github">
   <diagram name="Page-1" id="zGF4_sGwjLN_Bwj6_8bX">
-    <mxGraphModel>
+    <mxGraphModel dx="946" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="sPJzRjz7QlaesaV_H4-O-1" value="Prover" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sPJzRjz7QlaesaV_H4-O-2" value="Verifier" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sPJzRjz7QlaesaV_H4-O-3" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="sPJzRjz7QlaesaV_H4-O-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="1040" as="sourcePoint" />
+            <mxPoint x="320" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sPJzRjz7QlaesaV_H4-O-4" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="sPJzRjz7QlaesaV_H4-O-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="1040" as="sourcePoint" />
+            <mxPoint x="519.5" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sPJzRjz7QlaesaV_H4-O-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="280" as="sourcePoint" />
+            <mxPoint x="320" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sPJzRjz7QlaesaV_H4-O-6" value="$$PK, h$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-10;" vertex="1" parent="1">
+          <mxGeometry x="295" y="270" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sPJzRjz7QlaesaV_H4-O-7" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Instantiated with a batch of \(k\) instances&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;$$(x_1,\cdots,x_k)$$&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;$$ r \leftarrow \{0,1\}^\lambda$$ $$PK \leftarrow FirstBARG.V_1(1^\lambda, 1^{|x|}; r)$$&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;$$h \leftarrow H_\lambda$$&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="525" y="120" width="235" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="sPJzRjz7QlaesaV_H4-O-8" value="&lt;div style=&quot;text-align: right;&quot;&gt;Instantiated with a batch of \(k\) instances&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;$$(x_1,\cdots,x_k)$$&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;and \(k(\lambda)\) copies of the witnesses&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;$$|\phi_j\rangle \in \mathcal{R_L}(x_j)$$&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="102.5" y="100" width="215" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="sPJzRjz7QlaesaV_H4-O-9" value="&lt;div style=&quot;&quot;&gt;For all \(j \in [k]\), compute the quantum proofs and output commitments to them:&lt;/div&gt;&lt;div style=&quot;&quot;&gt;$$\vec{y}, \rho=FirstBARG.P(1^\lambda, &amp;nbsp;PK, \{x_j\}_{j\in [k]}, \{|\phi_j\rangle\}_{j \in [k]})$$&lt;/div&gt;&lt;div style=&quot;&quot;&gt;where \(\vec{y}=\{\vec{y_1}, \cdots, \vec{y_k}\}\) and \(\rho\) is residual state.&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Calculate hash using \(\hat{y} = h(\vec{y_1}, \cdots, \vec{y_k})\)&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="310" width="317.5" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="sPJzRjz7QlaesaV_H4-O-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="440" as="sourcePoint" />
+            <mxPoint x="520" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sPJzRjz7QlaesaV_H4-O-11" value="$$\hat{y}$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=10;" vertex="1" parent="1">
+          <mxGeometry x="305" y="430" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sPJzRjz7QlaesaV_H4-O-12" value="Meanwhile, sample a random bit &amp;nbsp;\(c\)&lt;br&gt;$$c \leftarrow FirstBARG.V_2(r)$$" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="490" width="235" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sPJzRjz7QlaesaV_H4-O-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="560" as="sourcePoint" />
+            <mxPoint x="320" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sPJzRjz7QlaesaV_H4-O-15" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;For all \(j \in [k]\), execute open:&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;$$\vec{z} = FirstBARG.P_2(\rho, c)$$&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;where \(\vec{z}=\{\vec{z_1}, \cdots, \vec{z_k}\}\)&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Calculate hash using \(\hat{z} = h(\vec{z_1}, \cdots, \vec{z_k})\) &amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="560" width="230" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="sPJzRjz7QlaesaV_H4-O-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="720" as="sourcePoint" />
+            <mxPoint x="520" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sPJzRjz7QlaesaV_H4-O-17" value="$$\hat{z}$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=10;" vertex="1" parent="1">
+          <mxGeometry x="335" y="720" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sPJzRjz7QlaesaV_H4-O-19" value="Execute \(AoK\) for the following statement:&lt;br&gt;\(\textcolor{red}{\exists w_1,\cdots,w_k \text{ s.t. } \hat{y}=h(w_1,\cdots,w_k)}\)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="490" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sPJzRjz7QlaesaV_H4-O-21" value="$$c$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-10;" vertex="1" parent="1">
+          <mxGeometry x="305" y="550" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sPJzRjz7QlaesaV_H4-O-22" value="Execute \(AoK\) for the following statement:&lt;br&gt;\(\textcolor{red}{\exists w_1,\cdots,w_k \text{ s.t. } \hat{z}=h(w_1,\cdots,w_k)}\)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="770" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sPJzRjz7QlaesaV_H4-O-23" value="$$r$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-10;" vertex="1" parent="1">
+          <mxGeometry x="335" y="840" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sPJzRjz7QlaesaV_H4-O-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="840" as="sourcePoint" />
+            <mxPoint x="320" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sPJzRjz7QlaesaV_H4-O-25" value="Execute \(AoK\) for the following statement:&lt;br&gt;\(\textcolor{red}{\exists w_1^{(1)},\cdots,w_k^{(1)} \text{ and }&amp;nbsp;\exists w_1^{(2)},\cdots,w_k^{(2)} \text{ such that following statements hold:}} \)&lt;br&gt;\(\textcolor{red}{\hat{y}=h(w_1^{(1)},\cdots,w_k^{(1)}) \text{ and } \hat{z}=h(w_1^{(2)},\cdots,w_k^{(2)}) \text{ and }&lt;br&gt;}\)&lt;br&gt;\(\textcolor{red}{FirstBARG.V(x, \{w_j^{(1)}\}_{j \in [k]}, \{w_j^{(2)}\}_{j \in [k]}; r)=1}\)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="890" width="440" height="140" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
