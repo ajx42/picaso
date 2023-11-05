@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-04T19:17:27.020Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="EZUawDSIAiCcgqgRSr6q" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-05T02:09:23.820Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="Pyknc_-Gx5H2zbCi5J4F" version="22.0.8" type="github">
   <diagram name="Page-1" id="zGF4_sGwjLN_Bwj6_8bX">
-    <mxGraphModel dx="946" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="1796" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,7 +37,7 @@
         <mxCell id="sPJzRjz7QlaesaV_H4-O-8" value="&lt;div style=&quot;text-align: right;&quot;&gt;Instantiated with a batch of \(k\) instances&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;$$(x_1,\cdots,x_k)$$&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;and \(k(\lambda)\) copies of the witnesses&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;$$|\phi_j\rangle \in \mathcal{R_L}(x_j)$$&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="102.5" y="100" width="215" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="sPJzRjz7QlaesaV_H4-O-9" value="&lt;div style=&quot;&quot;&gt;For all \(j \in [k]\), compute the quantum proofs and output commitments to them:&lt;/div&gt;&lt;div style=&quot;&quot;&gt;$$\vec{y}, \rho=FirstBARG.P(1^\lambda, &amp;nbsp;PK, \{x_j\}_{j\in [k]}, \{|\phi_j\rangle\}_{j \in [k]})$$&lt;/div&gt;&lt;div style=&quot;&quot;&gt;where \(\vec{y}=\{\vec{y_1}, \cdots, \vec{y_k}\}\) and \(\rho\) is residual state.&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Calculate hash using \(\hat{y} = h(\vec{y_1}, \cdots, \vec{y_k})\)&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="sPJzRjz7QlaesaV_H4-O-9" value="&lt;div style=&quot;&quot;&gt;For all \(j \in [k]\), compute the quantum proofs and output commitments to them:&lt;/div&gt;&lt;div style=&quot;&quot;&gt;$$\vec{y}, \rho=FirstBARG.P(1^\lambda, &amp;nbsp;PK, \{x_j\}_{j\in [k]}, \{|\phi_j\rangle^{\otimes \kappa(\lambda)}\}_{j \in [k]})$$&lt;/div&gt;&lt;div style=&quot;&quot;&gt;where \(\vec{y}=\{\vec{y_1}, \cdots, \vec{y_k}\}\) and \(\rho\) is residual state.&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Calculate hash using \(\hat{y} = h(\vec{y_1}, \cdots, \vec{y_k})\)&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry y="310" width="317.5" height="140" as="geometry" />
         </mxCell>
         <mxCell id="sPJzRjz7QlaesaV_H4-O-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
@@ -88,7 +88,7 @@
             <mxPoint x="320" y="880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sPJzRjz7QlaesaV_H4-O-25" value="Execute \(AoK\) for the following statement:&lt;br&gt;\(\textcolor{red}{\exists w_1^{(1)},\cdots,w_k^{(1)} \text{ and }&amp;nbsp;\exists w_1^{(2)},\cdots,w_k^{(2)} \text{ such that following statements hold:}} \)&lt;br&gt;\(\textcolor{red}{\hat{y}=h(w_1^{(1)},\cdots,w_k^{(1)}) \text{ and } \hat{z}=h(w_1^{(2)},\cdots,w_k^{(2)}) \text{ and }&lt;br&gt;}\)&lt;br&gt;\(\textcolor{red}{FirstBARG.V(x, \{w_j^{(1)}\}_{j \in [k]}, \{w_j^{(2)}\}_{j \in [k]}; r)=1}\)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sPJzRjz7QlaesaV_H4-O-25" value="Execute \(AoK\) for the following statement:&lt;br&gt;\(\textcolor{red}{\exists w_1^{(1)},\cdots,w_k^{(1)} \text{ and }&amp;nbsp;\exists w_1^{(2)},\cdots,w_k^{(2)} \text{ such that following statements hold:}} \)&lt;br&gt;\(\textcolor{red}{\hat{y}=h(w_1^{(1)},\cdots,w_k^{(1)}) \text{ and } \hat{z}=h(w_1^{(2)},\cdots,w_k^{(2)}) \text{ and }&lt;br&gt;}\)&lt;br&gt;\(\textcolor{red}{FirstBARG.V(\{x_j\}_{j \in [k]}, \{w_j^{(1)}\}_{j \in [k]}, \{w_j^{(2)}\}_{j \in [k]}, c; r)=1}\)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="890" width="440" height="140" as="geometry" />
         </mxCell>
       </root>
