@@ -1,9 +1,147 @@
-<mxfile host="app.diagrams.net" modified="2023-12-10T21:15:54.407Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" version="22.1.7" etag="x3b3KqnzG1mg-P8V0JQG" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-11T01:57:48.669Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="S9HhWsyDVlD0OUdLN7P4" version="22.1.7" type="github">
   <diagram name="Page-1" id="DtAqqJ4vXcb-iwtImGL9">
-    <mxGraphModel>
+    <mxGraphModel dx="794" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nRNA14XjF2XLPDuHHtgS-1" value="&lt;b&gt;Preliminary Result&lt;/b&gt;: Scaled PipeZK is found to be better than GZKP at the same die area and node size." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="30" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nRNA14XjF2XLPDuHHtgS-2" value="&lt;b&gt;Operation Level Analysis&lt;/b&gt;&lt;br&gt;Are the wins for PipeZK due to native support for high bit-width operations?&lt;br&gt;Do the finite field arithmetic operations in PipeZK significantly outperform GZKP&#39;s library?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="160" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nRNA14XjF2XLPDuHHtgS-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="90" as="sourcePoint" />
+            <mxPoint x="400" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nRNA14XjF2XLPDuHHtgS-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="250" as="sourcePoint" />
+            <mxPoint x="340" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nRNA14XjF2XLPDuHHtgS-7" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nRNA14XjF2XLPDuHHtgS-6">
+          <mxGeometry x="-0.1748" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nRNA14XjF2XLPDuHHtgS-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="250" as="sourcePoint" />
+            <mxPoint x="460" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nRNA14XjF2XLPDuHHtgS-12" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nRNA14XjF2XLPDuHHtgS-11">
+          <mxGeometry x="-0.0139" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nRNA14XjF2XLPDuHHtgS-13" value="Understand potential benefits of providing finite scale arithmetic and elliptic curve operations on GPU. How much can GZKP be enhanced?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="330" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nRNA14XjF2XLPDuHHtgS-15" value="&lt;b&gt;Algorithm Level Analysis&lt;/b&gt;&lt;br&gt;PipeZK has kernels for high level operations for MSM and NTT? Is there an advantage in providing GPUs with native support for fixed sized NTT and MSM kernels?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="350" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nRNA14XjF2XLPDuHHtgS-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="420" as="sourcePoint" />
+            <mxPoint x="400" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nRNA14XjF2XLPDuHHtgS-18" value="MSM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nRNA14XjF2XLPDuHHtgS-16">
+          <mxGeometry x="0.7274" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nRNA14XjF2XLPDuHHtgS-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="420" as="sourcePoint" />
+            <mxPoint x="600" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nRNA14XjF2XLPDuHHtgS-19" value="NTT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nRNA14XjF2XLPDuHHtgS-17">
+          <mxGeometry x="0.7122" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nRNA14XjF2XLPDuHHtgS-20" value="Need to brainstorm on the methodology here." style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="480" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nRNA14XjF2XLPDuHHtgS-24" value="Model the performance of recursive NTT on GPU. Treat 1024-sized NTTs as black boxes in the model and fill in data from PipeZK benchmarking. This requires precise stats from PipeZK though." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="510" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nRNA14XjF2XLPDuHHtgS-25" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="580" as="sourcePoint" />
+            <mxPoint x="500" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nRNA14XjF2XLPDuHHtgS-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="nRNA14XjF2XLPDuHHtgS-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="580" as="sourcePoint" />
+            <mxPoint x="500" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="580" />
+              <mxPoint x="500" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nRNA14XjF2XLPDuHHtgS-28" value="Enhanced GPU for ZKP. Does it perform significantly better than GZKP and close to PipeZK?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="660" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nRNA14XjF2XLPDuHHtgS-31" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="499.5" y="710" as="sourcePoint" />
+            <mxPoint x="450" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nRNA14XjF2XLPDuHHtgS-33" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nRNA14XjF2XLPDuHHtgS-31">
+          <mxGeometry x="0.0429" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nRNA14XjF2XLPDuHHtgS-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="710" as="sourcePoint" />
+            <mxPoint x="551" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nRNA14XjF2XLPDuHHtgS-34" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nRNA14XjF2XLPDuHHtgS-32">
+          <mxGeometry x="-0.0985" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nRNA14XjF2XLPDuHHtgS-35" value="We don&#39;t need ASICs for ZKP." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="750" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nRNA14XjF2XLPDuHHtgS-36" value="There may be potential benefits of PipeZK like ASICs in ZKP. How significant are these benefits really depend on the stats collected during this process." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="790" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nRNA14XjF2XLPDuHHtgS-37" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="nRNA14XjF2XLPDuHHtgS-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="390" as="sourcePoint" />
+            <mxPoint x="290" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="668" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nRNA14XjF2XLPDuHHtgS-38" value="Add native support to GPU using some IP from PipeZK." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nRNA14XjF2XLPDuHHtgS-37">
+          <mxGeometry x="-0.4241" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
