@@ -1,9 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2023-12-12T22:12:53.119Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" version="22.1.8" etag="1R1JfxlbXt41xLVTszSA" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-12T22:22:31.862Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="0pIb-2gWiBjpMp5JbFiz" version="22.1.8" type="github">
   <diagram name="Page-1" id="ybyI89d_vfAarFNE_Ysy">
-    <mxGraphModel>
+    <mxGraphModel dx="794" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FEvJGLDOdFFsf4CtZjkJ-2" value="Quantum Verifier" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="310" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FEvJGLDOdFFsf4CtZjkJ-3" value="" style="image;html=1;image=img/lib/clip_art/computers/Laptop_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="470" y="219" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FEvJGLDOdFFsf4CtZjkJ-4" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#ED7100;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.braket_qpu;" vertex="1" parent="1">
+          <mxGeometry x="180" y="220" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="FEvJGLDOdFFsf4CtZjkJ-5" value="Quantum Prover" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="164" y="310" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FEvJGLDOdFFsf4CtZjkJ-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="309" y="440" as="sourcePoint" />
+            <mxPoint x="449" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FEvJGLDOdFFsf4CtZjkJ-10" value="QMA Instance \( x \)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="329" y="150" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FEvJGLDOdFFsf4CtZjkJ-12" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://i.pinimg.com/736x/b7/5a/41/b75a41b1f2136e999c46efbb216abb72.jpg;" vertex="1" parent="1">
+          <mxGeometry x="550" y="202.5" width="107.82" height="95.5" as="geometry" />
+        </mxCell>
+        <mxCell id="FEvJGLDOdFFsf4CtZjkJ-13" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.quantum_technologies;" vertex="1" parent="1">
+          <mxGeometry x="490" y="239" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FEvJGLDOdFFsf4CtZjkJ-14" value="Prover has \( k(\lambda) \) copies&lt;br&gt;of quantum witness&amp;nbsp;\(|\phi \rangle \)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="114" y="350" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FEvJGLDOdFFsf4CtZjkJ-15" value="Prover generates quantum proof:&lt;br&gt;\( |\pi\rangle \leftarrow P_{FHM}(x, |\phi\rangle^{\otimes k(\lambda)}) \)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="25" y="390" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FEvJGLDOdFFsf4CtZjkJ-17" value="\( |\pi \rangle\)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="329" y="410" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FEvJGLDOdFFsf4CtZjkJ-18" value="Verifier performs a measurement.&lt;br&gt;\( r \leftarrow \mathcal{M}(|\pi\rangle)\)&lt;br&gt;Runs a classical verification algorithm.&lt;br&gt;\( V_{FHM}(x, r) \rightarrow 0 \text{ or } 1\)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="430" width="250" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
