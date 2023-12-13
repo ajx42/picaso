@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-13T03:23:43.883Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="2YKAioc-EGW6KuxgmIhl" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-13T08:27:17.602Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="MsC3B0hfEhXTd_8Epajq" version="22.1.8" type="github">
   <diagram name="Page-1" id="SkYU8KdAvCaDjnTelJPn">
     <mxGraphModel dx="1644" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
@@ -34,7 +34,7 @@
         <mxCell id="L5jHSvvYiYVI9-WfiXNY-8" value="Prover generates quantum proofs:&lt;br&gt;\( |\pi_j\rangle \leftarrow&amp;nbsp;\textcolor{red}{&lt;br&gt;P_{FHM}}(x_j, |\phi_j\rangle^{\otimes k(\lambda)}) \) for all \( j \in [k]\)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-20" y="310" width="390" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="L5jHSvvYiYVI9-WfiXNY-9" value="&lt;div style=&quot;border-color: var(--border-color); text-align: right;&quot;&gt;compute commitments for all \( j \in [k]\)&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: right;&quot;&gt;$$(\vec{y}_j, |st_j\rangle) \leftarrow \textcolor{green}{Commit}(PK_j, |\pi_j\rangle)$$&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="L5jHSvvYiYVI9-WfiXNY-9" value="&lt;div style=&quot;border-color: var(--border-color); text-align: right;&quot;&gt;compute commitments for all \( j \in [k]\)&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: right;&quot;&gt;$$(\vec{y}_j, |st_j\rangle) \leftarrow \textcolor{green}{Commit}(PK, |\pi_j\rangle)$$&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="78.5" y="430" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="L5jHSvvYiYVI9-WfiXNY-10" value="\( \vec{y} = \{ \vec{y}_1, \cdots,&amp;nbsp;\vec{y}_k&lt;br&gt;\}\)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
