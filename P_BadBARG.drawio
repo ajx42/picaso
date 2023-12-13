@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-13T02:56:36.000Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="LACSQnGmxloYzkO40uSp" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-13T02:57:18.347Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="TM8tlXkInQABXlFUbhJw" version="22.1.8" type="github">
   <diagram name="Page-1" id="b9AImQZlRmDhaym1XPzb">
     <mxGraphModel dx="1644" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
@@ -27,9 +27,6 @@
         </mxCell>
         <mxCell id="L88049jEslaWu98cFjgm-7" value="QMA Batch \( x_1, \cdots, x_k \)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="309" y="160" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="L88049jEslaWu98cFjgm-9" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.tick;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="620" y="210" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="L88049jEslaWu98cFjgm-10" value="Prover generates quantum proofs:&lt;br&gt;\( |\pi_j\rangle \leftarrow&amp;nbsp;\textcolor{red}{&lt;br&gt;P_{FHM}}(x_j, |\phi_j\rangle^{\otimes k(\lambda)}) \) for all \( j \in [k]\)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-20" y="310" width="390" height="60" as="geometry" />
@@ -78,6 +75,9 @@
         </mxCell>
         <mxCell id="L88049jEslaWu98cFjgm-22" value="&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;Generate master keys for all \( j \in [k]\)&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;$$(PK_j,SK_j)\leftarrow \textcolor{blue}{Gen}(1^\lambda, C_j)$$&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="335" y="340" width="370" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L88049jEslaWu98cFjgm-23" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/unicons-line-vol-3/24/exclamation-triangle-128.png;imageBackground=none;" vertex="1" parent="1">
+          <mxGeometry x="597" y="211" width="48" height="48" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
