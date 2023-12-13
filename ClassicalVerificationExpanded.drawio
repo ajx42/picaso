@@ -1,9 +1,87 @@
-<mxfile host="app.diagrams.net" modified="2023-12-13T00:25:28.075Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" version="22.1.8" etag="R7rzfrviEFSSYh6tuiFi" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-13T00:45:16.534Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="K6lstfbaF9JpuqBU9PXO" version="22.1.8" type="github">
   <diagram name="Page-1" id="_dstjYk30MXzqf1PtoBF">
-    <mxGraphModel>
+    <mxGraphModel dx="794" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ZD7uwhGMxv42USwJFpgz-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://i.etsystatic.com/19934258/r/il/329e2e/1883115379/il_570xN.1883115379_aqot.jpg;" vertex="1" parent="1">
+          <mxGeometry x="540" y="170" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD7uwhGMxv42USwJFpgz-2" value="Classical Verifier" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="270" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD7uwhGMxv42USwJFpgz-3" value="" style="image;html=1;image=img/lib/clip_art/computers/Laptop_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="470" y="179" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD7uwhGMxv42USwJFpgz-4" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#ED7100;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.braket_qpu;" vertex="1" parent="1">
+          <mxGeometry x="180" y="180" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD7uwhGMxv42USwJFpgz-5" value="Quantum Prover" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="164" y="270" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD7uwhGMxv42USwJFpgz-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="470" as="sourcePoint" />
+            <mxPoint x="440" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZD7uwhGMxv42USwJFpgz-7" value="QMA Instance \( x \)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="309" y="160" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD7uwhGMxv42USwJFpgz-8" value="Prover has \( k(\lambda) \) copies&lt;br&gt;of quantum witness&amp;nbsp;\(|\phi \rangle \)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="114" y="310" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD7uwhGMxv42USwJFpgz-12" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.tick;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="620" y="210" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD7uwhGMxv42USwJFpgz-13" value="Prover generates quantum proof:&lt;br&gt;\( |\pi\rangle \leftarrow P_{FHM}(x, |\phi\rangle^{\otimes k(\lambda)}) \)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="19" y="350" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD7uwhGMxv42USwJFpgz-14" value="&lt;div style=&quot;border-color: var(--border-color); text-align: right;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: right;&quot;&gt;$$(\vec{y}, |st\rangle) \leftarrow \textcolor{green}{Commit}(PK, |\pi\rangle)$$&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="420" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD7uwhGMxv42USwJFpgz-15" value="\( \vec{y} \)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD7uwhGMxv42USwJFpgz-17" value="$$c \xleftarrow{$} \{0,1\}$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="481" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD7uwhGMxv42USwJFpgz-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="531" as="sourcePoint" />
+            <mxPoint x="300" y="531" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZD7uwhGMxv42USwJFpgz-19" value="\( c \)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="345" y="501" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD7uwhGMxv42USwJFpgz-20" value="&lt;div style=&quot;border-color: var(--border-color); caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none;&quot;&gt;$$\vec{z} \leftarrow \textcolor{green}{Open}(|st\rangle, c)$$&lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="159" y="531" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD7uwhGMxv42USwJFpgz-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="591" as="sourcePoint" />
+            <mxPoint x="440" y="591" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZD7uwhGMxv42USwJFpgz-23" value="\( \vec{z} \)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="561" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD7uwhGMxv42USwJFpgz-24" value="&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;if \(c=0\) test round, check $$\textcolor{blue}{Test}(PK, (\vec{y}, \vec{z}))=acc$$&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;if \(c=1\) output, check $$\textcolor{red}{V_{FHM}}(x,\textcolor{blue}{Out}(SK, (\vec{y}, \vec{z})))=acc$$&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="650" width="580" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD7uwhGMxv42USwJFpgz-25" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="410" as="sourcePoint" />
+            <mxPoint x="300" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZD7uwhGMxv42USwJFpgz-26" value="\( PK = \{ pk_i \}_{i=1}^{N} \)&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="289" y="380" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD7uwhGMxv42USwJFpgz-27" value="&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;Generate master keys:&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;$$(PK,SK)\leftarrow \textcolor{blue}{Gen}(1^\lambda, C)$$&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="340" width="340" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
